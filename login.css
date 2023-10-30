@@ -1,0 +1,79 @@
+.header {
+    background-image: url('./arkaplan.jpg');
+    height: 110vh;
+    width: 100%;
+}
+
+
+.header-renk {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(171, 168, 168);
+    padding: 50px;
+    width: 400px;
+    height: 550px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.login-container h3 {
+    color: white;
+}
+
+.form-control {
+    padding: 12px;
+    width: 280px;
+    margin-bottom: 20px;
+    background-color: rgba(63, 63, 63, 0.9);
+    border: none;
+}
+
+.btn-custom {
+    width: 280px;
+    margin-bottom: 25px;
+}
+
+.icerik {
+    margin-top: 50px;
+    font-size: 13px;
+}
+
+.link, .link-kaydol {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover, .link-kaydol:hover {
+    text-decoration: underline;
+}
+
+.link-kaydol {
+    font-size: 15px;
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.checkbox-container label,
+.checkbox-container .link-container a {
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.link-container a {
+    color: gray;
+}
+
+footer.bg-black .container .row div ul li {
+    font-size: 14px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
